@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+body{
+    background-color: #EEE;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.header_page{
+    padding: 15px 30px;
+    height: 80px;
+    background-color: #D54A2C;
+    box-shadow: rgb(0 0 0 / 60%) 0px 3px 8px 0px;
+}
+
+.left_menu{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left_menu .logo{
+    height: 80px;
+    width: 200px;
+    object-fit: cover; 
+}
+
+.left_menu ul li{
+    display: inline;
+}
+
+.left_menu ul li a{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+} 
+
+.right_menu{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right_menu .btn_login{
+    padding: 7px 17px;
+    margin-right: 30px;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #FFF;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+
+.right_menu .btn_change_language{
+    border: 0px;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.main_image{
+    height: 90vh;
+    width: 100%;
+    background: url(./assets/destaque_fade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main_image h1{
+    font-size: 50px;
+    color: #FFF;
+}
+
+.main_image h2{
+    font-size: 30px;
+    color: #FFF;
+}
+
+.btn_init{
+    padding: 10px 50px;
+    margin: 30px 0;
+    font-size: 18px;
+    background-color: #D54A2C;
+    border-radius: 30px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.container{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+}
+
+.title_section{
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.divider{
+    width: 90px;
+    height: 4px;
+    background-color: #D54A2C;
+    margin: 0 auto 100px auto;
+    border: 0;
+}
+
+.text_section{
+    text-align: justify;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.image_map{
+    height: 500px;
+    width: 900px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.image_chakra{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    padding: 0 50px;
+}
+
+.text_normal{
+    font-weight: lighter !important;
+}
+
+.text_bold{
+    font-weight: bold !important;
+}
+
+.text_center{
+    text-align: center !important;
+}
+
+.text_italic{
+    font-style: italic !important;
+}
+
+.pd_10{
+    padding: 10px !important;
+}
+
+.pt_100{
+    padding-top: 100px;
+}
+
+.mb_100{
+    margin-bottom: 100px;
+}
+
+.flex{
+    display: flex;
+}
+
+.content_center{
+    justify-content: center;
+}
+
+.content_space_between{
+    justify-content: space-between;
+}
+
+.align_items_center{
+    align-items: center;
+}
+
+.bg-gray{
+    background-color: #ccc;
+}
