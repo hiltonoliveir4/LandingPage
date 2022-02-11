@@ -1,11 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Verdana;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
-    background-color: #EEE;
+    background-color: #FFF;
 }
 
 p{
@@ -94,7 +94,7 @@ ul{
 
 .btn_init{
     padding: 10px 50px;
-    margin: 30px 0;
+    width: 200px;
     font-size: 18px;
     background-color: #D54A2C;
     border-radius: 30px;
@@ -106,18 +106,25 @@ ul{
 .container{
     margin: auto;
     padding: auto;
-    width: 80%;
+    /* width: 1280px; */
+    width: 85%;
 }
 
 .title_section{
-    margin-bottom: 20px;
     color: #333;
     font-weight: bold;
     font-size: 35px;
     text-align: center;
 }
 
-.divider{
+.subtitle_section{
+    color: #333;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+}
+
+.divider_center{
     width: 90px;
     height: 4px;
     background-color: #D54A2C;
@@ -125,24 +132,111 @@ ul{
     border: 0;
 }
 
+.divider_right{
+    width: 90px;
+    height: 4px;
+    background-color: #D54A2C;
+    margin: 0 0 100px auto;
+    border: 0;
+}
+
+.divider_left{
+    width: 90px;
+    height: 4px;
+    background-color: #D54A2C;
+    margin: 0 auto 40px 0;
+    border: 0;
+}
+
 .text_section{
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
     padding: 0 10px;
+    color: #444;
 }
 
 .image_map{
-    height: 500px;
+    max-height: 500px;
     width: 900px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
 
 .image_chakra{
-    height: 500px;
-    width: 400px;
+    max-width: 700px;
+    max-height: 1000px;
     object-fit: cover;
     padding: 0 50px;
+}
+
+.image_treino{
+    max-width: 55%;
+    height: 700px;
+    object-fit: cover;
+    margin: 0 50px;
+    border-radius: 20px 5px 20px 5px;
+}
+
+.card_image{
+    color: #D54A2C;
+    font-size: 70px;
+}
+
+.card{
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card_title{
+    font-size: 22px;
+    margin-top: 10px;
+    color: #444;
+    font-weight: bold;
+}
+
+.card_text{
+    font-size: 18px;
+    margin: 5px;
+    color: #333;
+}
+
+.card_footer{
+    padding: 20px;
+}
+
+.card_info{
+    width: 40%;
+}
+
+.icons_social li{
+    display: inline;
+}
+
+.link_footer{
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    width: 0;
+    transition: .4s;
+    white-space: nowrap
+}
+
+.link_footer:hover{
+    border-bottom: 1px solid #FFF;
+    width: 100%
+}
+
+.max_content{
+    width: max-content;
 }
 
 .text_normal{
@@ -157,6 +251,10 @@ ul{
     text-align: center !important;
 }
 
+.text_left{
+    text-align: left !important;
+}
+
 .text_italic{
     font-style: italic !important;
 }
@@ -169,8 +267,28 @@ ul{
     padding-top: 100px;
 }
 
+.pt_50{
+    padding-top: 50px;
+}
+
+.pb_100{
+    padding-bottom: 100px;
+}
+
 .mb_100{
     margin-bottom: 100px;
+}
+
+.mb_20{
+    margin-bottom: 20px;
+}
+
+.mb_40{
+    margin-bottom: 40px;
+}
+
+.mr_50{
+    margin-right: 50px;
 }
 
 .flex{
@@ -189,6 +307,39 @@ ul{
     align-items: center;
 }
 
-.bg-gray{
-    background-color: #ccc;
+.bg_light_gray{
+    background-color: #F6F7F9;
+}
+
+.bg_gray{
+    background-color: #333;
+}
+
+.text_white{
+    color: #FFF;
+}
+
+.large_icon{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.flex_column{
+    flex-direction: column;
+}
+
+.col_4{
+    width: 33.3%;
+}
+
+.col_3{
+    width: 25%;
+}
+
+.col_6{
+    width: 50%;
+}
+
+.col_12{
+    width: 100%;
 }
